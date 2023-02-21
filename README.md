@@ -5,6 +5,11 @@ In order to run the code on people.ipynb and acquistion_facts.ipynb, I used jupy
 
 The 3 files 'con.csv', 'cons_email.csv', and 'cons_email_chapter_subscription.csv' must be in the same folder as people.ipynb in order for people.ipynb to run properly.
 
+Use these links to download the 3 csv files: 
+https://als-hiring.s3.amazonaws.com/fake_data/2020-07-01_17%3A11%3A00/cons.csv
+https://als-hiring.s3.amazonaws.com/fake_data/2020-07-01_17%3A11%3A00/cons_email.csv
+https://als-hiring.s3.amazonaws.com/fake_data/2020-07-01_17%3A11%3A00/cons_email_chapter_subscription.csv
+
 people.ipynb when run will produce the people.csv file which include the header columns: email, code, isunsub, created_dt, and updated_dt.
 
 acquisition_facts.ipynb when run will produce the acquisition_facts.csv file which include the header columns: acquisition_date, and acquisitions.
